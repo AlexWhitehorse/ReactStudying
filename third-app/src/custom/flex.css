@@ -1,0 +1,19 @@
+/* НИ ХАЧУ ПАДКЛЮЧАТЬ БУТЬСТРАП)) */
+.d-flex {
+    display: flex;
+}
+.flex-1 {
+    flex: 1 !important;
+}
+.flex-row {
+    flex-direction: row;
+}
+.justify-content-start {
+    justify-content: start;
+}
+.justify-content-end {
+    justify-content: end;
+}
+.align-items-center {
+    align-items: center;
+}
