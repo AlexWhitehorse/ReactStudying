@@ -28,7 +28,7 @@ const SECTIONS = [
 export default class Home extends Component {
     render() {
         const listItems = SECTIONS.map((elem) => 
-            <a className='SectionNavigation-Item Section' href="#">
+            <a className='SectionNavigation-Item Section' href={elem.href}>
                  <elem.Icon className="Section-Icon"/>
                 <span className="Section-Title">{elem.title}</span>
              </a>

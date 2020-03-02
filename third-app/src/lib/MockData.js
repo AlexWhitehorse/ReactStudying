@@ -1,3 +1,4 @@
+// Emulation data from server
 export const appointments = [
     {
       date: 1560422694514,
