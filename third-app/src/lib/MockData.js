@@ -9,11 +9,19 @@ export const appointments = [
       diagnosis: 'Застужено правое ухо'
     },
     {
-      date: 1560422694514,
+      date: 1560422694535,
       clientName: 'Пертов Пётр Генадьевич',
       status: 'Завершён',
       holderName: 'Иванов Иван Иванович',
       compliences: 'Боль в горле',
       diagnosis: 'Ангина'
+    },
+    {
+      date: 1560422694535,
+      clientName: 'Пертов1 Пётр1 Генадьевич1',
+      status: 'Завершён1',
+      holderName: 'Иван Иванович Иванов',
+      compliences: 'Боль в горле',
+      diagnosis: 'Без комметнтариев'
     }
  ]

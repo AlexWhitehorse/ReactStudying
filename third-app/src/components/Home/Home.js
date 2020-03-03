@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import { map } from 'underscore'
+import { Link } from 'react-router-dom'
+
 import Header from '../Header/Header'
 
 import './Home.css';
@@ -28,10 +31,16 @@ const SECTIONS = [
 export default class Home extends Component {
     render() {
         const listItems = SECTIONS.map((elem) => 
-            <a className='SectionNavigation-Item Section' href={elem.href}>
-                 <elem.Icon className="Section-Icon"/>
-                <span className="Section-Title">{elem.title}</span>
-             </a>
+            // <a className='SectionNavigation-Item Section' href={elem.href}>
+            //      <elem.Icon className="Section-Icon"/>
+            //     <span className="Section-Title">{elem.title}</span>
+            //  </a>
+            // с помощью компонента Link будет осуществляться
+            // навигация по разделам приложения
+            <Link className='SectionNavigation-Item Section' to={elem.href}>
+                <elem.Icon className='Section-Icon'/>
+                <span className='Section-Title'>{elem.title}</span>
+            </Link>
         );
 
         return (

@@ -1,2 +1,5 @@
+@import '~/bootstrap/css/bootstrap.css';
+@import '~react-datepicker/dist/react-datepicker.css';
+
 @import 'custom/flex.css';
-@import 'custom/buttons.css'
+@import 'custom/buttons.css';
